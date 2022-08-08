@@ -15,7 +15,7 @@ public class DemoApplication {
 
 	@GetMapping(value = "/Sai")
 	public String hello(@RequestParam(value = "name", defaultValue = "Sai") String name) {
-		return String.format("Hello  %s!", name);
+		return String.format("Hello Sai  %s!", name);
 	}
 
 }
